@@ -1,3 +1,7 @@
+body {
+    padding-bottom: 25%;
+}
+
 #batman-showing,
 #show2,
 #show3,
@@ -35,4 +39,53 @@
     bottom: 0;
     padding: 25px;
     text-align: center;
+    background-color: antiquewhite;
+}
+
+.green-background {
+    background-color: rgb(24, 82, 24);
+    color: chartreuse;
+}
+
+.yellow-background {
+    background-color: rgb(111, 111, 21);
+    color: yellow;
+}
+
+.red-background {
+    background-color: rgb(99, 5, 5);
+    color: red
+}
+
+.yellbg {
+    border-top: 3px inset gray;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(118, 118, 24);
+}
+
+.greenbg {
+    border-top: 3px inset gray;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(22, 136, 22);
+}
+
+.redbg {
+    border-top: 3px inset gray;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(109, 32, 32)
 }
