@@ -13,7 +13,8 @@ body {
 .clickable2,
 .clickable3,
 #showall,
-#hideall {
+#hideall,
+.unstyled {
     cursor: pointer;
     color: #0088cc;
 }
@@ -88,4 +89,8 @@ body {
     padding: 25px;
     text-align: center;
     background-color: rgb(109, 32, 32)
+}
+
+#story {
+    display: none;
 }
