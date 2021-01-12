@@ -1,0 +1,38 @@
+#batman-showing,
+#show2,
+#show3,
+#hideall {
+    display: none;
+}
+
+.clickable,
+.clickable2,
+.clickable3,
+#showall,
+#hideall {
+    cursor: pointer;
+    color: #0088cc;
+}
+
+.clickable:hover,
+.clickable2:hover,
+.clickable3:hover,
+#showall,
+#hideall {
+    text-decoration: underline;
+}
+
+#joker {
+    width: 300px;
+    height: 300px;
+}
+
+.color {
+    border-top: 3px inset gray;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 25px;
+    text-align: center;
+}
